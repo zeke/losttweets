@@ -10,3 +10,10 @@
   %div.tweet
     %p= tweetify_text(tweet.text)
     %p.date= time_ago_in_words_or_date tweet.tweeted_at
+    
+%div.footer
+  %p
+    A
+    = link_to("Zeke Sikelianos", "http://zeke.sikelianos.com")
+    project. Source code at 
+    = link_to("github.com/zeke/losttweets", "http://github.com/zeke/losttweets") + "."
