@@ -14,5 +14,6 @@ gem "rails"
 gem "rspec", :only => :testing
 
 gem "haml", "2.2.15"
+gem "crack"
 gem "httparty"
 # gem "formtastic"
