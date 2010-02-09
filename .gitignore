@@ -1,0 +1,15 @@
+db/schema.rb
+db/*.sqlite3
+data.dump
+config/database.yml
+log/*.log
+tmp/**/*
+doc/api
+doc/app
+.svn
+*.tmp
+*_bak
+*~
+.DS_STORE
+tmp
+coverage

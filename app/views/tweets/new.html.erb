@@ -1,0 +1,23 @@
+<h1>New tweet</h1>
+
+<% form_for(@tweet) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :text %><br />
+    <%= f.text_field :text %>
+  </p>
+  <p>
+    <%= f.label :tid %><br />
+    <%= f.text_field :tid %>
+  </p>
+  <p>
+    <%= f.label :tweeted_at %><br />
+    <%= f.datetime_select :tweeted_at %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', tweets_path %>

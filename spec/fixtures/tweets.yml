@@ -1,0 +1,24 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  text: MyString
+  tid: 1
+  tweeted_at: 2010-02-09 09:54:57
+
+two:
+  text: MyString
+  tid: 1
+  tweeted_at: 2010-02-09 09:54:57
+
+# == Schema Information
+#
+# Table name: tweets
+#
+#  id         :integer         not null, primary key
+#  text       :string(255)
+#  tid        :integer
+#  tweeted_at :datetime
+#  created_at :datetime
+#  updated_at :datetime
+#
+
