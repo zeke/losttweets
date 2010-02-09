@@ -1,0 +1,12 @@
+%h1 Lost Tweets
+
+%div.tweet
+  %p.info
+    = link_to("@zeke", "http://twitter.com/zeke")
+    accidentally deleted his twitter account, but had a 
+    chance to save his tweets before they vanished into the ether.
+
+- @tweets.each do |tweet|
+  %div.tweet
+    %p= tweetify_text(tweet.text)
+    %p.date= time_ago_in_words_or_date tweet.tweeted_at
