@@ -13,3 +13,8 @@ doc/app
 .DS_STORE
 tmp
 coverage
+vendor/bundler_gems
+vendor/gems/gems
+vendor/gems/specifications
+vendor/gems/doc
+vendor/gems/environment.rb
