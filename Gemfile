@@ -15,5 +15,4 @@ gem "rspec", :only => :testing
 
 gem "haml", "2.2.15"
 gem "httparty"
-gem "compass", "0.8.17"
 # gem "formtastic"
